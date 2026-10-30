@@ -1,0 +1,40 @@
+<svg width="400" height="260" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="galleryEquipBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12b5a6"/>
+      <stop offset="100%" stop-color="#047a80"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#galleryEquipBg)"/>
+  <g fill="#ffffff" opacity="0.08">
+    <circle cx="30" cy="30" r="3"/><circle cx="50" cy="30" r="3"/><circle cx="50" cy="50" r="3"/><circle cx="30" cy="50" r="3"/>
+  </g>
+  <circle cx="200" cy="130" r="105" fill="#ffffff" opacity="0.06"/>
+
+  <!-- monitor screen -->
+  <rect x="140" y="70" width="130" height="90" rx="6" fill="#ffffff" opacity="0.95"/>
+  <polyline points="152,120 175,120 185,95 198,145 210,110 225,120 258,120" fill="none" stroke="#047a80" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- stand -->
+  <rect x="195" y="160" width="10" height="26" fill="#ffffff" opacity="0.85"/>
+  <rect x="170" y="186" width="60" height="8" rx="4" fill="#ffffff" opacity="0.85"/>
+
+  <!-- stethoscope wrap -->
+  <g transform="translate(300,150)" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M-40 -70 C-40 -40 -20 -30 -20 -10 C-20 10 -35 20 -35 40"/>
+    <path d="M10 -70 C10 -40 -10 -30 -10 -10"/>
+    <circle cx="-35" cy="46" r="9" fill="#ffffff" stroke="none"/>
+  </g>
+
+  <!-- IV drip -->
+  <g transform="translate(80,60)">
+    <line x1="0" y1="0" x2="0" y2="120" stroke="#ffffff" stroke-width="4" opacity="0.8"/>
+    <rect x="-12" y="0" width="24" height="34" rx="4" fill="#ffffff" opacity="0.9"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#ffffff" stroke-width="4" opacity="0.8"/>
+  </g>
+
+  <!-- small cross badge -->
+  <g transform="translate(330,50)">
+    <circle r="22" fill="#ffffff" opacity="0.95"/>
+    <path d="M-3 -9 h6 v6 h6 v6 h-6 v6 h-6 v-6 h-6 v-6 h6 z" fill="#12b5a6"/>
+  </g>
+</svg>

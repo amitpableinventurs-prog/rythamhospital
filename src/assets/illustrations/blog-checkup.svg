@@ -1,0 +1,48 @@
+<svg width="400" height="260" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04979E"/>
+      <stop offset="100%" stop-color="#015AAC"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg1)"/>
+  <g fill="#ffffff" opacity="0.08">
+    <circle cx="350" cy="35" r="3"/><circle cx="370" cy="35" r="3"/><circle cx="370" cy="55" r="3"/><circle cx="350" cy="55" r="3"/>
+  </g>
+  <circle cx="200" cy="130" r="105" fill="#ffffff" opacity="0.06"/>
+
+  <!-- clipboard -->
+  <g transform="translate(150,55)">
+    <rect x="0" y="0" width="100" height="140" rx="8" fill="#ffffff"/>
+    <rect x="32" y="-8" width="36" height="18" rx="6" fill="#e5eef8"/>
+    <rect x="16" y="24" width="68" height="8" rx="4" fill="#04979E" opacity="0.6"/>
+    <rect x="16" y="44" width="50" height="6" rx="3" fill="#c9d8ea"/>
+    <g transform="translate(16,60)">
+      <rect width="14" height="14" rx="3" fill="#15cd72"/>
+      <path d="M3 7 l3 3 l6 -7" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="22" y="4" width="44" height="6" rx="3" fill="#c9d8ea"/>
+    </g>
+    <g transform="translate(16,84)">
+      <rect width="14" height="14" rx="3" fill="#15cd72"/>
+      <path d="M3 7 l3 3 l6 -7" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="22" y="4" width="44" height="6" rx="3" fill="#c9d8ea"/>
+    </g>
+    <g transform="translate(16,108)">
+      <rect width="14" height="14" rx="3" fill="#e5eef8"/>
+      <rect x="22" y="4" width="30" height="6" rx="3" fill="#c9d8ea"/>
+    </g>
+  </g>
+
+  <!-- magnifier -->
+  <g transform="translate(255,155)">
+    <circle cx="0" cy="0" r="26" fill="none" stroke="#ffffff" stroke-width="8"/>
+    <line x1="18" y1="18" x2="38" y2="38" stroke="#ffffff" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-10 0 a10 10 0 0 1 10 -10" stroke="#04979E" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- heart pulse small -->
+  <g transform="translate(70,175)">
+    <circle r="22" fill="#ffffff" opacity="0.95"/>
+    <polyline points="-13,0 -6,0 -2,-9 3,9 7,-4 13,0" fill="none" stroke="#ff6b6b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

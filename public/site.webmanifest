@@ -1,0 +1,13 @@
+{
+  "name": "Rhythm Multispeciality Hospital",
+  "short_name": "Rhythm Hospital",
+  "description": "Multispeciality hospital with 24/7 emergency care and online appointments.",
+  "start_url": "/",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#04979E",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

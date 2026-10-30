@@ -1,0 +1,39 @@
+<svg width="400" height="260" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="galleryRoomBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2f86d6"/>
+      <stop offset="100%" stop-color="#0c3d73"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#galleryRoomBg)"/>
+  <g fill="#ffffff" opacity="0.08">
+    <circle cx="30" cy="30" r="3"/><circle cx="50" cy="30" r="3"/><circle cx="50" cy="50" r="3"/><circle cx="30" cy="50" r="3"/>
+  </g>
+  <circle cx="200" cy="130" r="105" fill="#ffffff" opacity="0.06"/>
+
+  <!-- bed -->
+  <rect x="95" y="160" width="185" height="14" rx="4" fill="#ffffff"/>
+  <rect x="100" y="130" width="60" height="34" rx="6" fill="#ffffff" opacity="0.95"/>
+  <rect x="105" y="174" width="10" height="24" fill="#ffffff" opacity="0.8"/>
+  <rect x="260" y="174" width="10" height="24" fill="#ffffff" opacity="0.8"/>
+  <rect x="100" y="145" width="150" height="15" rx="6" fill="#0c3d73"/>
+
+  <!-- monitor stand -->
+  <rect x="290" y="90" width="6" height="90" fill="#ffffff" opacity="0.85"/>
+  <rect x="266" y="65" width="55" height="40" rx="4" fill="#ffffff" opacity="0.95"/>
+  <polyline points="273,88 283,78 291,90 300,72 313,88" fill="none" stroke="#0c3d73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- side table -->
+  <rect x="330" y="150" width="34" height="34" rx="3" fill="#ffffff" opacity="0.55"/>
+
+  <!-- window -->
+  <rect x="70" y="60" width="45" height="55" rx="3" fill="#ffffff" opacity="0.25"/>
+  <line x1="92.5" y1="60" x2="92.5" y2="115" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+  <line x1="70" y1="87.5" x2="115" y2="87.5" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+
+  <!-- small cross badge -->
+  <g transform="translate(330,45)">
+    <circle r="22" fill="#ffffff" opacity="0.95"/>
+    <path d="M-3 -9 h6 v6 h6 v6 h-6 v6 h-6 v-6 h-6 v-6 h6 z" fill="#2f86d6"/>
+  </g>
+</svg>

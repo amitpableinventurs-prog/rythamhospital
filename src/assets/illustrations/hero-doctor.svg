@@ -1,0 +1,95 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04979E"/>
+      <stop offset="100%" stop-color="#015AAC"/>
+    </linearGradient>
+    <linearGradient id="coatGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eaf6f7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="600" rx="24" fill="url(#heroBg)"/>
+
+  <!-- decorative dot pattern -->
+  <g fill="#ffffff" opacity="0.08">
+    <circle cx="60" cy="60" r="3"/><circle cx="90" cy="60" r="3"/><circle cx="120" cy="60" r="3"/>
+    <circle cx="60" cy="90" r="3"/><circle cx="90" cy="90" r="3"/><circle cx="120" cy="90" r="3"/>
+    <circle cx="480" cy="520" r="3"/><circle cx="510" cy="520" r="3"/><circle cx="540" cy="520" r="3"/>
+    <circle cx="480" cy="550" r="3"/><circle cx="510" cy="550" r="3"/><circle cx="540" cy="550" r="3"/>
+  </g>
+
+  <!-- soft glow circle behind doctor -->
+  <circle cx="300" cy="330" r="210" fill="#ffffff" opacity="0.06"/>
+  <circle cx="300" cy="330" r="160" fill="#ffffff" opacity="0.07"/>
+
+  <!-- floor shadow -->
+  <ellipse cx="300" cy="545" rx="140" ry="18" fill="#012f4d" opacity="0.25"/>
+
+  <!-- ==== Doctor character ==== -->
+  <!-- legs -->
+  <rect x="255" y="430" width="34" height="110" rx="14" fill="#0a2540"/>
+  <rect x="311" y="430" width="34" height="110" rx="14" fill="#0a2540"/>
+  <!-- shoes -->
+  <rect x="248" y="528" width="48" height="18" rx="9" fill="#0c1d37"/>
+  <rect x="304" y="528" width="48" height="18" rx="9" fill="#0c1d37"/>
+
+  <!-- coat body -->
+  <path d="M215 300 C215 260 255 235 300 235 C345 235 385 260 385 300 L392 445 C392 460 380 470 365 470 L235 470 C220 470 208 460 208 445 Z" fill="url(#coatGrad)"/>
+  <!-- inner scrub (teal) -->
+  <path d="M278 245 L322 245 L332 300 L268 300 Z" fill="#04979E"/>
+  <!-- coat lapels -->
+  <path d="M278 245 L300 300 L262 300 Z" fill="#f4fbfc"/>
+  <path d="M322 245 L300 300 L338 300 Z" fill="#f4fbfc"/>
+  <!-- coat buttons -->
+  <circle cx="300" cy="330" r="4" fill="#04979E"/>
+  <circle cx="300" cy="355" r="4" fill="#04979E"/>
+  <circle cx="300" cy="380" r="4" fill="#04979E"/>
+  <!-- coat outline seams -->
+  <path d="M235 260 L215 445" stroke="#dcecee" stroke-width="3" fill="none"/>
+  <path d="M365 260 L385 445" stroke="#dcecee" stroke-width="3" fill="none"/>
+
+  <!-- left arm holding tablet -->
+  <path d="M215 300 C190 315 175 345 172 385 L168 420 C167 430 174 438 184 438 C193 438 200 431 201 421 L208 385 C210 360 218 335 232 315 Z" fill="url(#coatGrad)"/>
+  <!-- right arm bent (hand near chest w/ stethoscope) -->
+  <path d="M385 300 C405 312 415 330 412 352 C410 368 396 378 382 374 C370 371 364 358 368 345 L372 320 Z" fill="url(#coatGrad)"/>
+
+  <!-- tablet in left hand -->
+  <rect x="150" y="392" width="66" height="46" rx="6" fill="#0a2540"/>
+  <rect x="156" y="398" width="54" height="34" rx="2" fill="#8fe3d8"/>
+  <line x1="162" y1="406" x2="196" y2="406" stroke="#0a2540" stroke-width="2"/>
+  <line x1="162" y1="414" x2="188" y2="414" stroke="#0a2540" stroke-width="2"/>
+  <line x1="162" y1="422" x2="200" y2="422" stroke="#0a2540" stroke-width="2"/>
+
+  <!-- stethoscope around neck -->
+  <path d="M270 250 C270 275 258 285 258 305 C258 320 270 330 284 328" stroke="#04979E" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M330 250 C330 275 342 285 342 305 C342 320 330 330 316 328" stroke="#04979E" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <circle cx="284" cy="330" r="8" fill="#0a2540"/>
+  <circle cx="316" cy="330" r="8" fill="#0a2540"/>
+
+  <!-- neck -->
+  <rect x="286" y="205" width="28" height="35" rx="10" fill="#e7b490"/>
+  <!-- head -->
+  <circle cx="300" cy="180" r="42" fill="#f0c49c"/>
+  <!-- hair -->
+  <path d="M258 168 C258 138 340 138 342 168 C342 150 320 145 300 145 C280 145 260 152 258 168 Z" fill="#2b2320"/>
+  <!-- simple face -->
+  <circle cx="286" cy="182" r="4" fill="#2b2320"/>
+  <circle cx="314" cy="182" r="4" fill="#2b2320"/>
+  <path d="M290 200 Q300 208 310 200" stroke="#8a5a3a" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- ==== Floating medical badges (subtle, decorative) ==== -->
+  <g transform="translate(90,150)">
+    <circle cx="0" cy="0" r="26" fill="#ffffff" opacity="0.95"/>
+    <path d="M-4 -10 h8 v8 h8 v8 h-8 v8 h-8 v-8 h-8 v-8 h8 z" fill="#ff6b6b"/>
+  </g>
+  <g transform="translate(500,180)">
+    <circle cx="0" cy="0" r="22" fill="#ffffff" opacity="0.95"/>
+    <path d="M0 -9 C5 -14 13 -10 13 -3 C13 5 0 13 0 13 C0 13 -13 5 -13 -3 C-13 -10 -5 -14 0 -9 Z" fill="#15cd72"/>
+  </g>
+  <g transform="translate(505,400)">
+    <circle cx="0" cy="0" r="20" fill="#ffffff" opacity="0.9"/>
+    <path d="M-9 0 h6 l3 -8 l4 16 l3 -8 h6" stroke="#015AAC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

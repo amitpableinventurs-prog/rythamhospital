@@ -1,0 +1,45 @@
+<svg width="400" height="260" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2f86d6"/>
+      <stop offset="100%" stop-color="#0c3d73"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#bg3)"/>
+  <g fill="#ffffff" opacity="0.08">
+    <circle cx="360" cy="220" r="3"/><circle cx="380" cy="220" r="3"/><circle cx="380" cy="240" r="3"/><circle cx="360" cy="240" r="3"/>
+  </g>
+  <circle cx="200" cy="130" r="105" fill="#ffffff" opacity="0.06"/>
+
+  <!-- plate -->
+  <ellipse cx="180" cy="170" rx="90" ry="24" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="180" cy="164" rx="90" ry="24" fill="#ffffff"/>
+  <ellipse cx="180" cy="164" rx="66" ry="16" fill="#eef6fb"/>
+
+  <!-- apple -->
+  <g transform="translate(150,110)">
+    <path d="M0 10 C-22 -6 -40 14 -34 34 C-28 54 -10 62 0 56 C10 62 28 54 34 34 C40 14 22 -6 0 10 Z" fill="#ff6b6b"/>
+    <path d="M0 10 C-4 2 -2 -6 4 -10" stroke="#0c3d73" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M4 -8 C14 -14 22 -8 20 0" fill="#15cd72"/>
+  </g>
+
+  <!-- broccoli -->
+  <g transform="translate(230,120)">
+    <circle cx="-8" cy="-6" r="12" fill="#15cd72"/>
+    <circle cx="8" cy="-6" r="12" fill="#15cd72"/>
+    <circle cx="0" cy="-16" r="12" fill="#15cd72"/>
+    <rect x="-5" y="0" width="10" height="26" rx="4" fill="#c8e6a0"/>
+  </g>
+
+  <!-- carrot -->
+  <g transform="translate(120,140)">
+    <path d="M0 0 L34 8 L4 20 Z" fill="#ffb347"/>
+    <path d="M-2 -2 l6 -6 M2 -1 l4 -8 M-1 2 l7 -3" stroke="#15cd72" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- feeding spoon icon badge -->
+  <g transform="translate(320,70)">
+    <circle r="22" fill="#ffffff" opacity="0.95"/>
+    <path d="M0 -10 a7 7 0 1 0 0.001 0 M0 -3 v14" stroke="#2f86d6" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

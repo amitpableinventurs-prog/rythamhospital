@@ -1,0 +1,43 @@
+<svg width="400" height="260" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="galleryHospitalBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04979E"/>
+      <stop offset="100%" stop-color="#015AAC"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#galleryHospitalBg)"/>
+  <g fill="#ffffff" opacity="0.08">
+    <circle cx="30" cy="30" r="3"/><circle cx="50" cy="30" r="3"/><circle cx="50" cy="50" r="3"/><circle cx="30" cy="50" r="3"/>
+  </g>
+  <circle cx="200" cy="130" r="105" fill="#ffffff" opacity="0.06"/>
+
+  <!-- building base -->
+  <rect x="110" y="90" width="180" height="130" rx="4" fill="#ffffff" opacity="0.95"/>
+  <!-- entrance -->
+  <rect x="182" y="175" width="36" height="45" rx="2" fill="#015AAC"/>
+  <!-- windows grid -->
+  <g fill="#04979E">
+    <rect x="128" y="108" width="20" height="20" rx="2"/>
+    <rect x="160" y="108" width="20" height="20" rx="2"/>
+    <rect x="220" y="108" width="20" height="20" rx="2"/>
+    <rect x="252" y="108" width="20" height="20" rx="2"/>
+    <rect x="128" y="140" width="20" height="20" rx="2"/>
+    <rect x="160" y="140" width="20" height="20" rx="2"/>
+    <rect x="220" y="140" width="20" height="20" rx="2"/>
+    <rect x="252" y="140" width="20" height="20" rx="2"/>
+  </g>
+  <!-- roof cross tower -->
+  <rect x="188" y="55" width="24" height="35" fill="#ffffff" opacity="0.95"/>
+  <g fill="#04979E">
+    <rect x="196" y="62" width="8" height="20"/>
+    <rect x="189" y="69" width="22" height="6"/>
+  </g>
+  <!-- ground line -->
+  <rect x="90" y="220" width="220" height="6" rx="3" fill="#ffffff" opacity="0.4"/>
+
+  <!-- small cross badge -->
+  <g transform="translate(330,60)">
+    <circle r="22" fill="#ffffff" opacity="0.95"/>
+    <path d="M-3 -9 h6 v6 h6 v6 h-6 v6 h-6 v-6 h-6 v-6 h6 z" fill="#04979E"/>
+  </g>
+</svg>

@@ -1,0 +1,213 @@
+.doctor-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--white);
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(4, 151, 158, 0.1);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.doctor-card:hover,
+.doctor-card:focus-within {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-hover);
+}
+
+/* Portrait frame: every photo gets the same 4:5 crop, anchored on the face. */
+.doctor-card-image {
+  aspect-ratio: 4 / 5;
+  background:
+    radial-gradient(circle at 50% 35%, #ffffff 0%, transparent 65%),
+    linear-gradient(160deg, #e3f4f5 0%, #e6eefa 100%);
+}
+
+.doctor-img {
+  object-position: top center;
+}
+
+.doctor-card:hover .doctor-img {
+  transform: scale(1.05);
+}
+
+/* Bottom fade keeps the chip and hover actions readable on light photos. */
+.doctor-card-image::before {
+  content: '';
+  position: absolute;
+  inset: 55% 0 0 0;
+  z-index: 1;
+  background: linear-gradient(180deg, transparent 0%, rgba(10, 37, 64, 0.55) 100%);
+  opacity: 0.55;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+}
+
+.doctor-card:hover .doctor-card-image::before,
+.doctor-card:focus-within .doctor-card-image::before {
+  opacity: 1;
+}
+
+.doctor-img-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doctor-avatar {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.doctor-avatar span {
+  color: var(--white);
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.doctor-specialty-chip {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  z-index: 2;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 700;
+  box-shadow: 0 4px 14px rgba(10, 37, 64, 0.15);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.doctor-hover {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.doctor-card:hover .doctor-hover,
+.doctor-card:focus-within .doctor-hover {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.doctor-card:hover .doctor-specialty-chip,
+.doctor-card:focus-within .doctor-specialty-chip {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+.doctor-book {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--primary);
+  font-size: 13.5px;
+  font-weight: 700;
+  box-shadow: 0 8px 20px rgba(10, 37, 64, 0.2);
+}
+
+.doctor-book:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.doctor-social {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.doctor-social a {
+  width: 32px;
+  height: 32px;
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  transition: var(--transition);
+}
+
+.doctor-social a:hover {
+  background: var(--white);
+  color: var(--primary);
+}
+
+.doctor-card-info {
+  padding: 18px 20px 22px;
+  text-align: center;
+}
+
+.doctor-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  margin-bottom: 8px;
+}
+
+.doctor-rating span {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.doctor-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--secondary);
+  margin-bottom: 4px;
+}
+
+.doctor-specialty {
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.doctor-experience {
+  color: var(--text-light);
+  font-size: 13px;
+}
+
+/* Touch screens have no hover: keep the booking button visible. */
+@media (hover: none) {
+  .doctor-hover {
+    opacity: 1;
+    transform: none;
+  }
+
+  .doctor-specialty-chip {
+    display: none;
+  }
+
+  .doctor-card-image::before {
+    opacity: 1;
+  }
+}

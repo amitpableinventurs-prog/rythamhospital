@@ -1,0 +1,554 @@
+[
+  {
+    "legacyId": 1,
+    "slug": "the-importance-of-regular-health-checkups",
+    "title": "The Importance of Regular Health Checkups",
+    "excerpt": "Regular health checkups are essential for early detection and prevention of diseases. Here’s why you shouldn’t skip your next one.",
+    "category": "Health Tips",
+    "author": "Dr. Meera Joshi",
+    "authorDetails": {
+      "name": "Dr. Meera Joshi",
+      "photo": null,
+      "qualification": "MBBS, MD (General Medicine)",
+      "specialization": "Preventive Health & Diagnostics",
+      "experience": "9+ Years Experience"
+    },
+    "publishedAt": "2024-12-15T10:00:00.000Z",
+    "updatedAt": "2024-12-18T10:00:00.000Z",
+    "views": 3240,
+    "content": {
+      "introduction": "Most of us only visit a doctor when something feels wrong. But by the time symptoms appear, many conditions have already been developing silently for months or years. Regular health checkups flip that script, catching potential problems while they’re still easy to manage.",
+      "whyItMatters": "Conditions like high blood pressure, diabetes, and high cholesterol often show no symptoms in their early stages. A routine checkup is frequently the only way these are discovered before they cause lasting damage to your heart, kidneys, or other organs.",
+      "conclusion": "A health checkup takes a few hours once or twice a year, but the insight it gives you into your own body is invaluable. Think of it as routine maintenance for the most important thing you own — your health.",
+      "symptoms": [
+        "Persistent fatigue despite adequate sleep",
+        "Unexplained weight changes",
+        "Frequent headaches or dizziness",
+        "Shortness of breath during routine activity",
+        "Changes in appetite, digestion, or sleep patterns"
+      ],
+      "causes": [
+        "Busy schedules and difficulty finding time",
+        "Assuming \"feeling fine\" means being healthy",
+        "Fear or anxiety about potential diagnoses",
+        "Cost concerns without knowing insurance coverage",
+        "Lack of awareness about recommended screening ages"
+      ],
+      "riskFactors": [
+        "Family history of chronic disease",
+        "Age above 40",
+        "Sedentary lifestyle",
+        "Smoking or regular alcohol use",
+        "Existing conditions like diabetes or hypertension"
+      ],
+      "prevention": [
+        "Schedule an annual full-body checkup",
+        "Track blood pressure and sugar levels periodically",
+        "Keep a personal health record of past results",
+        "Follow up promptly on any abnormal readings",
+        "Involve your family in preventive care planning"
+      ],
+      "treatment": [
+        "General physical examination",
+        "Blood pressure and BMI assessment",
+        "Blood tests (sugar, cholesterol, complete blood count)",
+        "Urine analysis and organ function screening",
+        "Specialist referrals based on findings"
+      ],
+      "lifestyle": [
+        "Eat a balanced, whole-food diet",
+        "Exercise for at least 30 minutes most days",
+        "Prioritize 7–8 hours of sleep",
+        "Manage stress through relaxation techniques",
+        "Avoid smoking and limit alcohol intake"
+      ],
+      "healthTips": [
+        "Drink plenty of water throughout the day",
+        "Exercise regularly, even a daily walk helps",
+        "Eat balanced meals with plenty of vegetables",
+        "Sleep 7–8 hours every night",
+        "Avoid smoking and excessive alcohol"
+      ],
+      "whenToConsult": "If it has been more than a year since your last full checkup, or if you notice any persistent, unexplained change in how you feel, it’s time to schedule an appointment — don’t wait for a major symptom to appear.",
+      "faqs": [
+        {
+          "q": "How often should I get a full body checkup?",
+          "a": "Once a year for most healthy adults; more frequently if you have existing risk factors."
+        },
+        {
+          "q": "Do I need to fast before a checkup?",
+          "a": "Yes, for tests like blood sugar and cholesterol, fasting for 8–12 hours is usually required."
+        },
+        {
+          "q": "Is a checkup necessary if I feel completely healthy?",
+          "a": "Yes — many conditions have no early symptoms, which is exactly why regular screening matters."
+        }
+      ]
+    },
+    "relatedLegacyIds": [
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "legacyId": 2,
+    "slug": "understanding-heart-health-tips-for-a-healthy-heart",
+    "title": "Understanding Heart Health: Tips for a Healthy Heart",
+    "excerpt": "Your heart works nonstop for you every day. Learn the everyday habits that keep it strong and the warning signs you should never ignore.",
+    "category": "Cardiology",
+    "author": "Dr. Rajesh Kumar",
+    "authorDetails": {
+      "name": "Dr. Rajesh Kumar",
+      "photo": "dr-rajesh-kumar.jpg",
+      "qualification": "MBBS, MD, DM (Cardiology)",
+      "specialization": "Interventional & Preventive Cardiology",
+      "experience": "15+ Years Experience"
+    },
+    "publishedAt": "2024-12-10T10:00:00.000Z",
+    "updatedAt": "2024-12-12T10:00:00.000Z",
+    "views": 5180,
+    "content": {
+      "introduction": "Your heart beats around 100,000 times a day, pumping blood to every part of your body without a single break. Yet heart disease remains one of the leading causes of death worldwide — largely because many risk factors build up silently over years.",
+      "whyItMatters": "Cardiovascular disease is often preventable. Understanding what strains your heart, and what strengthens it, gives you real control over your long-term risk, regardless of your family history.",
+      "conclusion": "A healthy heart isn’t about a single big change — it’s the sum of small daily choices: what you eat, how much you move, and how well you manage stress. Start with one habit today, and build from there.",
+      "symptoms": [
+        "Chest pain, pressure, or tightness",
+        "Shortness of breath with minimal exertion",
+        "Irregular or racing heartbeat",
+        "Swelling in the legs, ankles, or feet",
+        "Unusual fatigue during everyday activities"
+      ],
+      "causes": [
+        "High blood pressure and cholesterol",
+        "Diabetes and insulin resistance",
+        "Smoking and tobacco use",
+        "Chronic stress",
+        "Family history of heart disease"
+      ],
+      "riskFactors": [
+        "Age (risk increases after 45 for men, 55 for women)",
+        "Obesity or being overweight",
+        "Sedentary lifestyle",
+        "Poor diet high in saturated fat and salt",
+        "Uncontrolled diabetes or hypertension"
+      ],
+      "prevention": [
+        "Get blood pressure and cholesterol checked regularly",
+        "Maintain a heart-healthy weight",
+        "Limit salt, sugar, and processed foods",
+        "Quit smoking and reduce alcohol intake",
+        "Manage stress with regular relaxation practices"
+      ],
+      "treatment": [
+        "Lifestyle and dietary counseling",
+        "Medication for blood pressure or cholesterol",
+        "ECG, 2D Echo, and stress testing",
+        "Angioplasty or interventional procedures when needed",
+        "Cardiac rehabilitation programs"
+      ],
+      "lifestyle": [
+        "Aim for 150 minutes of moderate exercise weekly",
+        "Choose whole grains, fruits, and vegetables",
+        "Limit red meat and fried foods",
+        "Sleep 7–8 hours each night",
+        "Schedule regular cardiac screenings after 40"
+      ],
+      "healthTips": [
+        "Drink plenty of water throughout the day",
+        "Take a brisk 30-minute walk daily",
+        "Eat balanced meals rich in fiber and healthy fats",
+        "Sleep 7–8 hours every night",
+        "Avoid smoking, it’s one of the biggest heart-disease risks"
+      ],
+      "whenToConsult": "Seek immediate medical attention for chest pain, pressure, or breathlessness that doesn’t go away with rest — these can be signs of a heart attack. Book a routine cardiology consultation if you have risk factors like high blood pressure, diabetes, or a family history of heart disease.",
+      "faqs": [
+        {
+          "q": "What is a normal blood pressure reading?",
+          "a": "Generally around 120/80 mmHg; your doctor can interpret this based on your individual health profile."
+        },
+        {
+          "q": "Can heart disease be reversed?",
+          "a": "Many risk factors can be significantly improved through lifestyle changes, medication, and consistent monitoring."
+        },
+        {
+          "q": "At what age should I start heart screenings?",
+          "a": "Around age 30–35 if you have risk factors, otherwise from age 40 onward."
+        }
+      ]
+    },
+    "relatedLegacyIds": [
+      1,
+      4,
+      6
+    ]
+  },
+  {
+    "legacyId": 3,
+    "slug": "child-nutrition-building-healthy-habits-early",
+    "title": "Child Nutrition: Building Healthy Habits Early",
+    "excerpt": "The eating habits children build early often last a lifetime. Here’s how to set your child up for lifelong healthy nutrition.",
+    "category": "Pediatrics",
+    "author": "Dr. Sneha Reddy",
+    "authorDetails": {
+      "name": "Dr. Sneha Reddy",
+      "photo": null,
+      "qualification": "MBBS, MD (Pediatrics)",
+      "specialization": "Child Nutrition & Growth Monitoring",
+      "experience": "10+ Years Experience"
+    },
+    "publishedAt": "2024-12-05T10:00:00.000Z",
+    "updatedAt": "2024-12-07T10:00:00.000Z",
+    "views": 2760,
+    "content": {
+      "introduction": "The taste preferences and eating habits children develop in their first few years often stay with them for life. Building a foundation of balanced nutrition early makes healthy eating feel natural rather than like a rule to follow.",
+      "whyItMatters": "Proper nutrition during childhood supports brain development, immune function, and steady growth. Deficiencies at this stage can affect a child’s energy, concentration, and long-term health.",
+      "conclusion": "You don’t need a perfect diet plan — consistency matters more than perfection. Small, steady steps toward balanced meals will serve your child far better than occasional strict rules.",
+      "symptoms": [
+        "Low energy or frequent tiredness",
+        "Slower-than-expected growth or weight gain",
+        "Frequent infections or slow recovery from illness",
+        "Poor concentration at school",
+        "Picky eating limited to very few food types"
+      ],
+      "causes": [
+        "Excess sugary snacks and processed foods",
+        "Skipping meals, especially breakfast",
+        "Limited variety of fruits and vegetables offered",
+        "Screen time during meals reducing mindful eating",
+        "Lack of consistent meal routines"
+      ],
+      "riskFactors": [
+        "Family history of nutrient deficiencies",
+        "Highly selective or picky eating habits",
+        "Frequent fast food or packaged snack consumption",
+        "Low physical activity levels",
+        "Underlying digestive or absorption issues"
+      ],
+      "prevention": [
+        "Offer a variety of fruits and vegetables regularly",
+        "Establish consistent meal and snack times",
+        "Involve children in choosing and preparing food",
+        "Limit sugary drinks and processed snacks",
+        "Model healthy eating habits as a family"
+      ],
+      "treatment": [
+        "Nutritional assessment and growth tracking",
+        "Personalized diet planning",
+        "Iron, vitamin D, or other supplements if deficient",
+        "Guidance for managing picky eating",
+        "Follow-up growth monitoring visits"
+      ],
+      "lifestyle": [
+        "Serve balanced meals with protein, grains, and vegetables",
+        "Encourage daily active play",
+        "Limit screen time during meals",
+        "Make water the primary drink over sugary beverages",
+        "Keep healthy snacks easily accessible at home"
+      ],
+      "healthTips": [
+        "Offer colorful fruits and vegetables daily",
+        "Keep mealtimes screen-free and relaxed",
+        "Encourage at least an hour of active play",
+        "Make water the default drink at home",
+        "Involve kids in cooking to build food interest"
+      ],
+      "whenToConsult": "Consult a pediatrician if your child shows slow growth, extreme pickiness that limits nutrition, frequent illness, or low energy that doesn’t improve with rest and regular meals.",
+      "faqs": [
+        {
+          "q": "How do I deal with a picky eater?",
+          "a": "Keep offering variety without pressure — repeated, low-pressure exposure often works better than forcing a food."
+        },
+        {
+          "q": "Are supplements necessary for children?",
+          "a": "Only if a deficiency is identified; a balanced diet is usually the best first approach."
+        },
+        {
+          "q": "How much water should my child drink daily?",
+          "a": "This varies by age and activity level — your pediatrician can suggest a target for your child."
+        }
+      ]
+    },
+    "relatedLegacyIds": [
+      1,
+      4,
+      5
+    ]
+  },
+  {
+    "legacyId": 4,
+    "slug": "managing-diabetes-a-complete-guide",
+    "title": "Managing Diabetes: A Complete Guide",
+    "excerpt": "Diabetes management doesn’t have to feel overwhelming. Here’s a practical guide to keeping your blood sugar in check.",
+    "category": "General Health",
+    "author": "Dr. Anjali Desai",
+    "authorDetails": {
+      "name": "Dr. Anjali Desai",
+      "photo": null,
+      "qualification": "MBBS, MD (Endocrinology)",
+      "specialization": "Diabetes & Metabolic Disorders",
+      "experience": "11+ Years Experience"
+    },
+    "publishedAt": "2024-11-28T10:00:00.000Z",
+    "updatedAt": "2024-12-01T10:00:00.000Z",
+    "views": 4120,
+    "content": {
+      "introduction": "A diabetes diagnosis can feel overwhelming at first, but with the right knowledge and daily habits, most people manage it well and continue living full, active lives.",
+      "whyItMatters": "Uncontrolled blood sugar over time can damage the eyes, kidneys, nerves, and heart. Consistent management dramatically reduces these risks and helps you feel more energetic day to day.",
+      "conclusion": "Diabetes management is a daily practice, not a one-time fix. With consistent monitoring, the right diet, and regular medical follow-up, you can keep your blood sugar well controlled and prevent long-term complications.",
+      "symptoms": [
+        "Increased thirst and frequent urination",
+        "Unexplained fatigue",
+        "Blurred vision",
+        "Slow-healing cuts or wounds",
+        "Unexpected weight loss (Type 1) or weight gain (Type 2)"
+      ],
+      "causes": [
+        "Insulin resistance (Type 2 Diabetes)",
+        "Autoimmune destruction of insulin-producing cells (Type 1)",
+        "Genetic predisposition",
+        "Excess body weight, especially abdominal fat",
+        "Sedentary lifestyle and poor diet"
+      ],
+      "riskFactors": [
+        "Family history of diabetes",
+        "Overweight or obesity",
+        "Age above 45",
+        "High blood pressure or cholesterol",
+        "History of gestational diabetes"
+      ],
+      "prevention": [
+        "Maintain a healthy body weight",
+        "Choose whole grains over refined carbohydrates",
+        "Exercise regularly to improve insulin sensitivity",
+        "Get blood sugar screened periodically after 40",
+        "Limit sugary drinks and processed snacks"
+      ],
+      "treatment": [
+        "Blood sugar monitoring (fasting & post-meal)",
+        "Oral medications or insulin therapy as prescribed",
+        "HbA1c testing every 3 months",
+        "Nutrition counseling and meal planning",
+        "Regular screening for eye, kidney, and nerve complications"
+      ],
+      "lifestyle": [
+        "Eat at consistent times with balanced portions",
+        "Choose low glycemic-index foods",
+        "Exercise for at least 30 minutes, 5 days a week",
+        "Monitor blood sugar as advised by your doctor",
+        "Manage stress, which can affect blood sugar levels"
+      ],
+      "healthTips": [
+        "Drink plenty of water throughout the day",
+        "Exercise regularly to help regulate blood sugar",
+        "Eat balanced meals at consistent times",
+        "Sleep 7–8 hours every night",
+        "Avoid smoking, which worsens diabetes complications"
+      ],
+      "whenToConsult": "See a doctor promptly if you notice excessive thirst, frequent urination, unexplained fatigue, or wounds that heal slowly. If already diagnosed, seek immediate care for very high or very low blood sugar symptoms like confusion, shakiness, or fainting.",
+      "faqs": [
+        {
+          "q": "Can Type 2 diabetes be reversed?",
+          "a": "In some cases, significant weight loss and lifestyle changes can bring blood sugar into a normal range, though this varies by individual."
+        },
+        {
+          "q": "How often should I check my blood sugar?",
+          "a": "This depends on your treatment plan — your doctor will set a monitoring schedule suited to you."
+        },
+        {
+          "q": "Is diabetes only caused by eating too much sugar?",
+          "a": "No, it’s caused by a combination of genetics, insulin resistance, and lifestyle factors, not sugar intake alone."
+        }
+      ]
+    },
+    "relatedLegacyIds": [
+      2,
+      3,
+      6
+    ]
+  },
+  {
+    "legacyId": 5,
+    "slug": "mental-health-awareness-breaking-the-stigma",
+    "title": "Mental Health Awareness: Breaking the Stigma",
+    "excerpt": "Mental health is just as important as physical health, yet stigma often keeps people from seeking help. Here’s why that needs to change.",
+    "category": "Mental Health",
+    "author": "Dr. Karan Mehta",
+    "authorDetails": {
+      "name": "Dr. Karan Mehta",
+      "photo": null,
+      "qualification": "MBBS, MD (Psychiatry)",
+      "specialization": "Mental Health & Wellbeing",
+      "experience": "8+ Years Experience"
+    },
+    "publishedAt": "2024-11-20T10:00:00.000Z",
+    "updatedAt": "2024-11-23T10:00:00.000Z",
+    "views": 3890,
+    "content": {
+      "introduction": "For every person who seeks help for a physical illness without hesitation, many more hold back from seeking support for their mental health — often out of fear of judgment. That gap costs people years of unnecessary suffering.",
+      "whyItMatters": "Mental health conditions are common, treatable, and nothing to be ashamed of. Left unaddressed, they can affect relationships, work, and physical health just as significantly as any physical illness.",
+      "conclusion": "Reaching out for mental health support is a sign of strength, not weakness. The more openly we talk about it, the easier it becomes for everyone to get the help they deserve.",
+      "symptoms": [
+        "Persistent sadness, anxiety, or emptiness",
+        "Withdrawal from friends, family, or activities",
+        "Changes in sleep or appetite",
+        "Difficulty concentrating or making decisions",
+        "Feeling overwhelmed, hopeless, or irritable"
+      ],
+      "causes": [
+        "Chronic stress or major life changes",
+        "Genetic and biological factors",
+        "Trauma or difficult life experiences",
+        "Chemical imbalances in the brain",
+        "Social isolation or lack of support"
+      ],
+      "riskFactors": [
+        "Family history of mental illness",
+        "Chronic medical conditions",
+        "History of trauma or abuse",
+        "Substance use",
+        "Prolonged high stress or burnout"
+      ],
+      "prevention": [
+        "Build and maintain supportive relationships",
+        "Practice regular stress-management techniques",
+        "Maintain a consistent sleep schedule",
+        "Stay physically active",
+        "Seek support early rather than waiting for a crisis"
+      ],
+      "treatment": [
+        "Confidential consultation with a psychiatrist or counselor",
+        "Talk therapy / counseling",
+        "Medication when clinically appropriate",
+        "Stress-management and coping skill-building",
+        "Regular follow-up and support planning"
+      ],
+      "lifestyle": [
+        "Prioritize consistent, quality sleep",
+        "Stay physically active most days",
+        "Limit alcohol and avoid substance use",
+        "Practice mindfulness or relaxation techniques",
+        "Stay connected with supportive people"
+      ],
+      "healthTips": [
+        "Talk to someone you trust about how you’re feeling",
+        "Maintain a consistent sleep routine",
+        "Stay physically active, even light exercise helps",
+        "Practice mindfulness or deep breathing daily",
+        "Don’t hesitate to seek professional support"
+      ],
+      "whenToConsult": "If low mood, anxiety, or stress is affecting your daily life, relationships, or work for more than two weeks, it’s worth speaking with a mental health professional. If you or someone you know is in crisis, seek help immediately.",
+      "faqs": [
+        {
+          "q": "Is therapy only for serious mental illness?",
+          "a": "No, therapy can help with everyday stress, life transitions, and general wellbeing, not just diagnosed conditions."
+        },
+        {
+          "q": "Are mental health consultations confidential?",
+          "a": "Yes, patient confidentiality is a core part of mental health care."
+        },
+        {
+          "q": "How do I support a friend who is struggling?",
+          "a": "Listen without judgment, encourage them to seek professional help, and check in regularly."
+        }
+      ]
+    },
+    "relatedLegacyIds": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "legacyId": 6,
+    "slug": "seasonal-allergies-prevention-and-treatment",
+    "title": "Seasonal Allergies: Prevention and Treatment",
+    "excerpt": "Sneezing through every season change? Here’s how to identify your triggers and keep seasonal allergies under control.",
+    "category": "Health Tips",
+    "author": "Dr. Farah Khan",
+    "authorDetails": {
+      "name": "Dr. Farah Khan",
+      "photo": null,
+      "qualification": "MBBS, MS (ENT)",
+      "specialization": "Allergy & Respiratory Care",
+      "experience": "9+ Years Experience"
+    },
+    "publishedAt": "2024-11-15T10:00:00.000Z",
+    "updatedAt": "2024-11-18T10:00:00.000Z",
+    "views": 2510,
+    "content": {
+      "introduction": "If certain times of year leave you sneezing, congested, or itchy-eyed, you’re dealing with seasonal allergies — one of the most common, yet manageable, conditions affecting quality of life.",
+      "whyItMatters": "Untreated seasonal allergies can disrupt sleep, concentration, and daily comfort, and in some cases trigger or worsen asthma. Identifying your specific triggers makes treatment far more effective.",
+      "conclusion": "With the right combination of trigger avoidance, medication, and long-term management, seasonal allergies don’t have to control your calendar. A little preparation each season goes a long way.",
+      "symptoms": [
+        "Sneezing and a runny or stuffy nose",
+        "Itchy, watery eyes",
+        "Itchy throat or ears",
+        "Postnasal drip and mild cough",
+        "Fatigue from disrupted sleep"
+      ],
+      "causes": [
+        "Pollen from trees, grasses, or weeds",
+        "Mold spores that increase during humid seasons",
+        "Dust mites that thrive with weather changes",
+        "Air pollution aggravating sensitivity",
+        "Genetic predisposition to allergic conditions"
+      ],
+      "riskFactors": [
+        "Family history of allergies or asthma",
+        "Existing asthma or eczema",
+        "Frequent outdoor exposure during high-pollen seasons",
+        "Living in high-pollution areas",
+        "Exposure to indoor allergens like dust or pet dander"
+      ],
+      "prevention": [
+        "Check daily pollen forecasts and plan accordingly",
+        "Keep windows closed during high-pollen periods",
+        "Shower and change clothes after being outdoors",
+        "Use air purifiers indoors",
+        "Wash bedding regularly in hot water"
+      ],
+      "treatment": [
+        "Antihistamines for sneezing and itching",
+        "Nasal sprays for congestion",
+        "Allergy testing to identify specific triggers",
+        "Immunotherapy for long-term relief in select cases",
+        "Eye drops for allergic conjunctivitis"
+      ],
+      "lifestyle": [
+        "Monitor local pollen counts during allergy season",
+        "Keep indoor humidity moderate to limit mold growth",
+        "Vacuum and dust regularly with a HEPA filter",
+        "Avoid outdoor activity during peak pollen hours",
+        "Stay hydrated to help thin mucus secretions"
+      ],
+      "healthTips": [
+        "Check pollen forecasts before planning outdoor time",
+        "Keep windows closed during high-pollen days",
+        "Shower after spending time outdoors",
+        "Use a HEPA air purifier indoors",
+        "Stay hydrated to ease congestion"
+      ],
+      "whenToConsult": "See a doctor if over-the-counter allergy medication isn’t controlling your symptoms, if allergies are affecting your sleep or daily activities, or if you experience wheezing or shortness of breath alongside allergy symptoms.",
+      "faqs": [
+        {
+          "q": "Can seasonal allergies develop later in life?",
+          "a": "Yes, allergies can develop at any age, even without a childhood history."
+        },
+        {
+          "q": "Are seasonal allergies the same as a cold?",
+          "a": "No — allergies typically last as long as exposure continues and don’t cause fever, unlike a cold."
+        },
+        {
+          "q": "Is allergy testing worth it?",
+          "a": "Yes, identifying exact triggers helps tailor more effective prevention and treatment."
+        }
+      ]
+    },
+    "relatedLegacyIds": [
+      2,
+      4,
+      5
+    ]
+  }
+]
