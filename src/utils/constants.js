@@ -2,6 +2,7 @@ import drRajeshKumar from '../assets/doctors/dr-rajesh-kumar.jpg'
 import drAmitPatel from '../assets/doctors/dr-amit-patel.jpg'
 import drPriyaSharma from '../assets/doctors/dr-priya-sharma.jpg'
 import drSnehaReddy from '../assets/doctors/dr-sneha-reddy.jpg'
+import drYashaswiniMishra from '../assets/doctors/dr-yashaswini-mishra.jpg'
 import galleryHospital from '../assets/illustrations/gallery-hospital.svg'
 import galleryRoom from '../assets/illustrations/gallery-room.svg'
 import galleryEquipment from '../assets/illustrations/gallery-equipment.svg'
@@ -538,6 +539,23 @@ export const DEPARTMENTS = [
 ]
 
 export const DOCTORS = [
+  {
+    id: 9,
+    name: 'Dr. Utsav Yadav',
+    specialty: 'Heart, Diabetes & General Medicine',
+    qualification: 'MD (Medicine)',
+    image: null,
+    opd: 'Mon & Thu, 4:00 – 7:00 PM',
+    social: {}
+  },
+  {
+    id: 10,
+    name: 'Dr. Yashaswini Mishra',
+    specialty: 'Obstetrician & Gynaecologist',
+    image: drYashaswiniMishra,
+    opd: 'Wednesday, 12:00 – 5:00 PM',
+    social: {}
+  },
   {
     id: 1,
     name: 'Dr. Rajesh Kumar',

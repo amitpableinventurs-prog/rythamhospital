@@ -26,7 +26,7 @@ const DoctorsSection = () => {
         </motion.div>
 
         <div className="doctors-grid">
-          {DOCTORS.map((doctor, index) => (
+          {DOCTORS.slice(0, 4).map((doctor, index) => (
             <DoctorCard key={doctor.id} doctor={doctor} index={index} />
           ))}
         </div>

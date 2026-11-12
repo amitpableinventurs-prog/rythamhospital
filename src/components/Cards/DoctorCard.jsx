@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Star, CalendarCheck } from 'lucide-react'
+import { Star, CalendarCheck, Clock } from 'lucide-react'
 import {
   FaFacebookF,
   FaTwitter,
@@ -67,22 +67,31 @@ const DoctorCard = ({ doctor, index }) => {
       </div>
 
       <div className="doctor-card-info">
-        <div className="doctor-rating" aria-label={`Rated ${doctor.rating} out of 5`}>
-          {[...Array(5)].map((_, i) => (
-            <Star
-              key={i}
-              size={14}
-              fill={i < Math.round(doctor.rating) ? '#ffc107' : 'none'}
-              color="#ffc107"
-              aria-hidden="true"
-            />
-          ))}
-          <span aria-hidden="true">{doctor.rating}</span>
-        </div>
+        {doctor.rating != null && (
+          <div className="doctor-rating" aria-label={`Rated ${doctor.rating} out of 5`}>
+            {[...Array(5)].map((_, i) => (
+              <Star
+                key={i}
+                size={14}
+                fill={i < Math.round(doctor.rating) ? '#ffc107' : 'none'}
+                color="#ffc107"
+                aria-hidden="true"
+              />
+            ))}
+            <span aria-hidden="true">{doctor.rating}</span>
+          </div>
+        )}
 
         <h3 className="doctor-name">{doctor.name}</h3>
+        {doctor.qualification && <p className="doctor-qualification">{doctor.qualification}</p>}
         <p className="doctor-specialty">{doctor.specialty}</p>
-        <p className="doctor-experience">{doctor.experience} Experience</p>
+        {doctor.experience && <p className="doctor-experience">{doctor.experience} Experience</p>}
+        {doctor.opd && (
+          <p className="doctor-opd">
+            <Clock size={13} aria-hidden="true" />
+            <span>OPD: {doctor.opd}</span>
+          </p>
+        )}
       </div>
     </motion.article>
   )
